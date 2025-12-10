@@ -20,7 +20,7 @@ These steps assume **nothing is installed**. Follow in order.
 
 ## 2) Clone the repo
 ```bash
-git clone <https://github.com/MinsungKim0315/BUtique.git>
+git clone https://github.com/MinsungKim0315/BUtique.git
 cd BUtique
 ```
 
@@ -42,6 +42,7 @@ APP_PASS=arypzokgufvvermr
 
 ## 5) Install dependencies
 ### Frontend (from repo root)
+- Re-open your terminal
 ```bash
 npm install
 ```
@@ -49,7 +50,6 @@ npm install
 ```bash
 cd backend
 pip install -r requirements.txt
-cd ..
 ```
 
 ## 6) Run the backend (GraphQL API)
@@ -66,11 +66,7 @@ npm run dev
 ```
 Open `http://localhost:3000`.
 
-## 8) Authentication note
-- Routes are guarded by a session cookie (`session_user_id`). Login sets it; `/creator` is allowed for sign-up.
-- Static assets (`/icon.png`, etc.) and `/api` are public.
-
-## 9) Tests
+## 8) Tests
 From repo root (same on macOS/Windows):
 ```bash
 pytest
