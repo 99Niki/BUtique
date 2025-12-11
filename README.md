@@ -42,7 +42,7 @@ APP_PASS=...
 
 ## 5) Install dependencies
 ### Frontend (from repo root)
-- Re-open your terminal
+- Restart your terminal
 ```bash
 npm install
 ```
