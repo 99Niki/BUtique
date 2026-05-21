@@ -6,7 +6,7 @@ Key pieces:
 - Frontend: Next.js app in the repo root (`app/`) — UI, pages, and client GraphQL code.
 - Backend: FastAPI-based GraphQL server in `backend/` — data, resolvers, and services.
 
-This README summarizes how to set up and run the project locally. The backend uses a Python virtual environment (`venv`) — instructions below show how to create and use it.
+The backend uses a Python virtual environment (`venv`) — instructions below show how to create and use it.
 
 Prerequisites
 - Node.js (LTS)
@@ -92,4 +92,3 @@ Notes
 - Keep one terminal with the backend venv activated; run the frontend/npm commands in another terminal.
 - If you need to recreate the venv: `rm -rf .venv && python3 -m venv .venv && source .venv/bin/activate && pip install -r backend/requirements.txt`
 
-If you'd like, I can also add a short `scripts/` helper or npm scripts to automate venv creation and startup.***
